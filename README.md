@@ -22,7 +22,13 @@ At the end of the detection process, the algorithm computes and exports in an Ex
 3.	the Generalized SWI (SWIG), that is, the SWI restricted only to SW that spread to >80% of the electrodes.
 
 ## Dependencies
-Matlab Statistics Toolbox is needed to run the algorithm (K-mean function). Matlab R2023a was used to develop the algorithm.
+The following Matlab toolboxes are required:
+- Parallel Computing Toolbox
+- Signal Processing Toolbox 
+- Image Processing Toolbox
+- Statistics and Machine Learning Toolbox
+
+Matlab R2023a was used to develop the algorithm.
 
 ## Licence
 If you use this toolbox for a publication (in a journal, at a conference, etc.), please cite both related publications: [Nonclercq2012] and [Nonclercq2009]. 
